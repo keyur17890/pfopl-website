@@ -1,0 +1,25 @@
+# Robots.txt for pfopl.com
+# Parshwanath Formatting OPC Pvt Ltd
+
+User-agent: *
+Allow: /
+
+# Disallow access to sensitive directories
+Disallow: /includes/
+Disallow: /php/
+Disallow: /logs/
+
+# Disallow direct PHP file access patterns
+Disallow: /*.php$
+
+# Allow important pages (clean URLs)
+Allow: /about
+Allow: /services
+Allow: /contact
+Allow: /get-quote
+
+# Sitemap location
+Sitemap: https://pfopl.com/sitemap.xml
+
+# Crawl delay for polite crawling
+Crawl-delay: 1
