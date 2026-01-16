@@ -1,6 +1,6 @@
 <?php
 /**
- * PFOPL Homepage
+ * PFOPL Homepage - Premium Design
  * Parshwanath Formatting OPC Pvt Ltd
  */
 
@@ -19,76 +19,156 @@ $og_image = SITE_URL . '/assets/images/og/home.jpg';
     <?php include __DIR__ . '/includes/seo-head.php'; ?>
 </head>
 <body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-logo">PFOPL</div>
+            <div class="preloader-spinner"></div>
+        </div>
+    </div>
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress"></div>
+
     <?php include __DIR__ . '/includes/header.php'; ?>
 
     <main>
-        <!-- Hero Section -->
+        <!-- Hero Section - Premium Full Width -->
         <section class="hero">
-            <div class="container">
+            <!-- Animated Background -->
+            <div class="hero-bg">
+                <div class="hero-glow-1"></div>
+                <div class="hero-glow-2"></div>
+                <div class="hero-glow-3"></div>
+                <div class="hero-grid"></div>
+            </div>
+
+            <div class="hero-container">
                 <div class="hero-content" data-aos="fade-up">
-                    <span class="hero-tagline">ISO Certified Digital Services</span>
-                    <h1>Professional <span>CV Formatting</span> & Digital Solutions for Recruitment Agencies</h1>
+                    <span class="hero-badge">
+                        <i class="fas fa-certificate"></i> ISO 9001 & ISO 27001 Certified
+                    </span>
+                    <h1 class="hero-title">
+                        Professional <span class="gradient-text">CV Formatting</span> & Digital Solutions for Recruitment Agencies
+                    </h1>
                     <p class="hero-description">
                         Trusted by 200+ recruitment agencies worldwide. We deliver precision-crafted CVs in just 1-3 hours,
-                        backed by ISO 9001 and ISO 27001 certifications for quality and security.
+                        backed by ISO certifications for quality and security.
                     </p>
                     <div class="hero-buttons">
-                        <a href="/services/cv-formatting" class="btn btn-primary btn-lg">Our CV Services</a>
-                        <a href="/get-quote" class="btn btn-outline-white btn-lg">Get a Quote</a>
+                        <a href="/services/cv-formatting" class="btn btn-primary btn-lg">
+                            <span class="btn-text">Explore Services</span>
+                            <span class="btn-icon"><i class="fas fa-arrow-right"></i></span>
+                        </a>
+                        <a href="/get-quote" class="btn btn-glass btn-lg">
+                            <span class="btn-text">Get a Quote</span>
+                            <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
+                        </a>
                     </div>
-                    <div class="hero-stats">
-                        <div class="hero-stat">
-                            <span class="hero-stat-value" data-counter="200">0</span>
-                            <span class="hero-stat-label">Global Clients</span>
+                </div>
+
+                <!-- Floating Cards -->
+                <div class="hero-visual">
+                    <div class="floating-card floating-card-1" data-aos="fade-up" data-aos-delay="200">
+                        <div class="floating-card-icon">
+                            <i class="fas fa-clock"></i>
                         </div>
-                        <div class="hero-stat">
-                            <span class="hero-stat-value" data-counter="9">0</span>
-                            <span class="hero-stat-label">Years Experience</span>
+                        <div class="floating-card-text">
+                            <span class="floating-card-value">1-3 Hours</span>
+                            <span class="floating-card-label">Turnaround</span>
                         </div>
-                        <div class="hero-stat">
-                            <span class="hero-stat-value" data-counter="7">0</span>
-                            <span class="hero-stat-label">Payment Currencies</span>
+                    </div>
+                    <div class="floating-card floating-card-2" data-aos="fade-up" data-aos-delay="400">
+                        <div class="floating-card-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="floating-card-text">
+                            <span class="floating-card-value">200+</span>
+                            <span class="floating-card-label">Global Clients</span>
+                        </div>
+                    </div>
+                    <div class="floating-card floating-card-3" data-aos="fade-up" data-aos-delay="600">
+                        <div class="floating-card-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="floating-card-text">
+                            <span class="floating-card-value">9+ Years</span>
+                            <span class="floating-card-label">Experience</span>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="hero-shapes">
-                <div class="hero-shape hero-shape-1"></div>
-                <div class="hero-shape hero-shape-2"></div>
-                <div class="hero-shape hero-shape-3"></div>
+
+            <!-- Scroll Indicator -->
+            <div class="hero-scroll">
+                <span>Scroll to explore</span>
+                <div class="scroll-indicator">
+                    <div class="scroll-dot"></div>
+                </div>
             </div>
         </section>
 
-        <!-- About Introduction -->
-        <section class="section">
+        <!-- About Introduction - Premium -->
+        <section class="section section-about">
             <div class="container">
-                <div class="about-intro">
+                <div class="about-grid">
                     <div class="about-image" data-aos="fade-right">
-                        <img src="/assets/images/about-home.jpg" alt="PFOPL office team delivering professional digital services" width="600" height="400" loading="lazy">
+                        <div class="image-wrapper">
+                            <img src="/assets/images/about-home.jpg" alt="PFOPL office team delivering professional digital services" width="600" height="400" loading="lazy">
+                            <div class="image-accent"></div>
+                        </div>
+                        <div class="experience-badge">
+                            <span class="experience-years" data-counter="9">0</span>
+                            <span class="experience-text">Years of Excellence</span>
+                        </div>
                     </div>
-                    <div class="about-text" data-aos="fade-left">
-                        <h2>Your Trusted Partner for Digital Excellence Since 2016</h2>
-                        <p>
+                    <div class="about-content" data-aos="fade-left">
+                        <span class="section-tag">About Us</span>
+                        <h2 class="section-title">Your Trusted Partner for <span class="gradient-text">Digital Excellence</span> Since 2016</h2>
+                        <p class="about-text">
                             Parshwanath Formatting OPC Pvt Ltd (PFOPL) has been delivering exceptional digital services
                             to recruitment agencies and businesses across the globe since 2016. Based in Vadodara, India,
                             we combine technical expertise with a deep understanding of the recruitment industry.
                         </p>
-                        <p>
-                            Our dual ISO certifications (9001:2015 for Quality and 27001:2022 for Information Security)
-                            demonstrate our commitment to delivering reliable, secure services that meet international standards.
-                        </p>
-                        <a href="/about" class="btn btn-secondary">Learn More About Us</a>
+                        <div class="about-features">
+                            <div class="about-feature">
+                                <div class="about-feature-icon">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <span>ISO 9001:2015 Quality Certified</span>
+                            </div>
+                            <div class="about-feature">
+                                <div class="about-feature-icon">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <span>ISO 27001:2022 Security Certified</span>
+                            </div>
+                            <div class="about-feature">
+                                <div class="about-feature-icon">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <span>24/7 Support Available</span>
+                            </div>
+                        </div>
+                        <a href="/about" class="btn btn-secondary">
+                            <span class="btn-text">Learn More About Us</span>
+                            <span class="btn-icon"><i class="fas fa-arrow-right"></i></span>
+                        </a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Services Section -->
-        <section class="section section-alt" id="services">
+        <!-- Services Section - Premium -->
+        <section class="section section-services" id="services">
+            <div class="section-bg">
+                <div class="section-glow"></div>
+            </div>
             <div class="container">
                 <div class="section-header" data-aos="fade-up">
-                    <h2>Our Professional Services</h2>
-                    <p>Comprehensive digital solutions designed specifically for recruitment agencies and businesses requiring reliable, high-quality support.</p>
+                    <span class="section-tag">Our Services</span>
+                    <h2 class="section-title">Professional <span class="gradient-text">Digital Services</span></h2>
+                    <p class="section-subtitle">Comprehensive digital solutions designed specifically for recruitment agencies and businesses requiring reliable, high-quality support.</p>
                 </div>
                 <div class="services-grid">
                     <?php
@@ -96,150 +176,251 @@ $og_image = SITE_URL . '/assets/images/og/home.jpg';
                     foreach ($featured_services as $index => $service):
                     ?>
                     <div class="service-card" data-aos="fade-up" data-aos-delay="<?php echo $index * 100; ?>">
-                        <div class="service-icon">
-                            <i class="fas <?php echo $service['icon']; ?>"></i>
+                        <div class="service-card-glow"></div>
+                        <div class="service-card-inner">
+                            <div class="service-card-icon">
+                                <i class="fas <?php echo $service['icon']; ?>"></i>
+                            </div>
+                            <h3 class="service-card-title"><?php echo $service['title']; ?></h3>
+                            <p class="service-card-text"><?php echo $service['description']; ?></p>
+                            <a href="/services/<?php echo $service['slug']; ?>" class="service-card-link">
+                                <span>Learn More</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
                         </div>
-                        <h3><?php echo $service['title']; ?></h3>
-                        <p><?php echo $service['description']; ?></p>
-                        <a href="/services/<?php echo $service['slug']; ?>" class="service-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
                     </div>
                     <?php endforeach; ?>
                 </div>
+                <div class="services-cta" data-aos="fade-up">
+                    <a href="/services" class="btn btn-primary">
+                        <span class="btn-text">View All Services</span>
+                        <span class="btn-icon"><i class="fas fa-th-large"></i></span>
+                    </a>
+                </div>
             </div>
         </section>
 
-        <!-- Why Choose Us -->
-        <section class="section">
+        <!-- Why Choose Us - Premium -->
+        <section class="section section-features">
             <div class="container">
                 <div class="section-header" data-aos="fade-up">
-                    <h2>Why Recruitment Agencies Choose PFOPL</h2>
-                    <p>We understand the unique demands of the recruitment industry and deliver solutions that help you work faster and more efficiently.</p>
+                    <span class="section-tag">Why Choose Us</span>
+                    <h2 class="section-title">Why Recruitment Agencies <span class="gradient-text">Choose PFOPL</span></h2>
+                    <p class="section-subtitle">We understand the unique demands of the recruitment industry and deliver solutions that help you work faster and more efficiently.</p>
                 </div>
                 <div class="features-grid">
                     <div class="feature-card" data-aos="fade-up" data-aos-delay="0">
-                        <div class="feature-icon">
-                            <i class="fas fa-clock"></i>
+                        <div class="feature-card-icon">
+                            <i class="fas fa-bolt"></i>
                         </div>
-                        <h4>1-3 Hour Turnaround</h4>
-                        <p>Get professionally formatted CVs delivered within hours, not days. Perfect for urgent client requirements.</p>
+                        <h4 class="feature-card-title">1-3 Hour Turnaround</h4>
+                        <p class="feature-card-text">Get professionally formatted CVs delivered within hours, not days. Perfect for urgent client requirements.</p>
                     </div>
                     <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
-                        <div class="feature-icon">
-                            <i class="fas fa-certificate"></i>
+                        <div class="feature-card-icon">
+                            <i class="fas fa-award"></i>
                         </div>
-                        <h4>Dual ISO Certified</h4>
-                        <p>ISO 9001:2015 and ISO 27001:2022 certified, ensuring quality management and information security.</p>
+                        <h4 class="feature-card-title">Dual ISO Certified</h4>
+                        <p class="feature-card-text">ISO 9001:2015 and ISO 27001:2022 certified, ensuring quality management and information security.</p>
                     </div>
                     <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
-                        <div class="feature-icon">
-                            <i class="fas fa-globe"></i>
+                        <div class="feature-card-icon">
+                            <i class="fas fa-globe-americas"></i>
                         </div>
-                        <h4>7 Currency Payments</h4>
-                        <p>Pay conveniently in GBP, USD, EUR, AUD, CAD, SGD or INR through secure payment channels.</p>
+                        <h4 class="feature-card-title">7 Currency Payments</h4>
+                        <p class="feature-card-text">Pay conveniently in GBP, USD, EUR, AUD, CAD, SGD or INR through secure payment channels.</p>
                     </div>
                     <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
-                        <div class="feature-icon">
+                        <div class="feature-card-icon">
                             <i class="fas fa-shield-alt"></i>
                         </div>
-                        <h4>Data Security</h4>
-                        <p>Your candidate data is protected with enterprise-grade security measures and strict confidentiality protocols.</p>
+                        <h4 class="feature-card-title">Data Security</h4>
+                        <p class="feature-card-text">Your candidate data is protected with enterprise-grade security measures and strict confidentiality protocols.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Stats Section -->
-        <section class="stats-section">
+        <!-- Stats Section - Glass Morphism -->
+        <section class="section section-stats">
+            <div class="stats-bg">
+                <div class="stats-gradient"></div>
+            </div>
             <div class="container">
                 <div class="stats-grid">
-                    <div class="stat-item" data-aos="fade-up" data-aos-delay="0">
-                        <span class="stat-value"><span data-counter="200">0</span>+</span>
-                        <span class="stat-label">Clients Worldwide</span>
+                    <div class="stat-card" data-aos="fade-up" data-aos-delay="0">
+                        <div class="stat-card-inner">
+                            <div class="stat-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="stat-value"><span data-counter="200" data-suffix="+">0</span></div>
+                            <div class="stat-label">Clients Worldwide</div>
+                        </div>
                     </div>
-                    <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
-                        <span class="stat-value"><span data-counter="9">0</span>+</span>
-                        <span class="stat-label">Years of Excellence</span>
+                    <div class="stat-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="stat-card-inner">
+                            <div class="stat-icon">
+                                <i class="fas fa-calendar-check"></i>
+                            </div>
+                            <div class="stat-value"><span data-counter="9" data-suffix="+">0</span></div>
+                            <div class="stat-label">Years of Excellence</div>
+                        </div>
                     </div>
-                    <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
-                        <span class="stat-value"><span data-counter="50000">0</span>+</span>
-                        <span class="stat-label">CVs Formatted</span>
+                    <div class="stat-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="stat-card-inner">
+                            <div class="stat-icon">
+                                <i class="fas fa-file-alt"></i>
+                            </div>
+                            <div class="stat-value"><span data-counter="50000" data-suffix="+">0</span></div>
+                            <div class="stat-label">CVs Formatted</div>
+                        </div>
                     </div>
-                    <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
-                        <span class="stat-value"><span data-counter="99">0</span>%</span>
-                        <span class="stat-label">Client Satisfaction</span>
+                    <div class="stat-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="stat-card-inner">
+                            <div class="stat-icon">
+                                <i class="fas fa-smile"></i>
+                            </div>
+                            <div class="stat-value"><span data-counter="99" data-suffix="%">0</span></div>
+                            <div class="stat-label">Client Satisfaction</div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Testimonials Section -->
-        <section class="section section-alt">
+        <!-- Testimonials Section - Premium -->
+        <section class="section section-testimonials">
             <div class="container">
                 <div class="section-header" data-aos="fade-up">
-                    <h2>What Our Clients Say</h2>
-                    <p>Trusted by recruitment agencies across the UK, USA, Canada and Australia.</p>
+                    <span class="section-tag">Testimonials</span>
+                    <h2 class="section-title">What Our <span class="gradient-text">Clients Say</span></h2>
+                    <p class="section-subtitle">Trusted by recruitment agencies across the UK, USA, Canada and Australia.</p>
                 </div>
-                <div class="testimonials-slider" data-aos="fade-up" tabindex="0">
-                    <div class="testimonial-card">
-                        <p class="testimonial-quote">
-                            PFOPL has transformed our CV processing workflow completely. What used to take us hours now takes minutes.
-                            Their team consistently delivers polished, professional CVs that impress our clients.
-                        </p>
-                        <div class="testimonial-author">
-                            <div class="testimonial-info">
-                                <h4>Sarah Mitchell</h4>
-                                <p>Operations Manager, TechRecruit UK</p>
+                <div class="testimonials-slider" data-aos="fade-up">
+                    <div class="testimonials-track">
+                        <div class="testimonial-card active">
+                            <div class="testimonial-content">
+                                <div class="testimonial-quote-icon">
+                                    <i class="fas fa-quote-left"></i>
+                                </div>
+                                <p class="testimonial-text">
+                                    PFOPL has transformed our CV processing workflow completely. What used to take us hours now takes minutes.
+                                    Their team consistently delivers polished, professional CVs that impress our clients.
+                                </p>
+                                <div class="testimonial-author">
+                                    <div class="testimonial-author-avatar">
+                                        <span>SM</span>
+                                    </div>
+                                    <div class="testimonial-author-info">
+                                        <h4>Sarah Mitchell</h4>
+                                        <p>Operations Manager, TechRecruit UK</p>
+                                    </div>
+                                </div>
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <div class="testimonial-quote-icon">
+                                    <i class="fas fa-quote-left"></i>
+                                </div>
+                                <p class="testimonial-text">
+                                    We have been working with PFOPL for over three years now. Their attention to detail and quick turnaround
+                                    times have made them an essential part of our recruitment operations.
+                                </p>
+                                <div class="testimonial-author">
+                                    <div class="testimonial-author-avatar">
+                                        <span>MC</span>
+                                    </div>
+                                    <div class="testimonial-author-info">
+                                        <h4>Michael Chen</h4>
+                                        <p>Director, Pacific Staffing Solutions</p>
+                                    </div>
+                                </div>
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <div class="testimonial-quote-icon">
+                                    <i class="fas fa-quote-left"></i>
+                                </div>
+                                <p class="testimonial-text">
+                                    The security certifications gave us confidence to work with PFOPL on sensitive candidate data.
+                                    Their professionalism and reliability are outstanding. Highly recommended for any recruitment agency.
+                                </p>
+                                <div class="testimonial-author">
+                                    <div class="testimonial-author-avatar">
+                                        <span>ET</span>
+                                    </div>
+                                    <div class="testimonial-author-info">
+                                        <h4>Emma Thompson</h4>
+                                        <p>Managing Partner, Elite Executive Search</p>
+                                    </div>
+                                </div>
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="testimonial-card">
-                        <p class="testimonial-quote">
-                            We have been working with PFOPL for over three years now. Their attention to detail and quick turnaround
-                            times have made them an essential part of our recruitment operations.
-                        </p>
-                        <div class="testimonial-author">
-                            <div class="testimonial-info">
-                                <h4>Michael Chen</h4>
-                                <p>Director, Pacific Staffing Solutions</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-card">
-                        <p class="testimonial-quote">
-                            The security certifications gave us confidence to work with PFOPL on sensitive candidate data.
-                            Their professionalism and reliability are outstanding. Highly recommended for any recruitment agency.
-                        </p>
-                        <div class="testimonial-author">
-                            <div class="testimonial-info">
-                                <h4>Emma Thompson</h4>
-                                <p>Managing Partner, Elite Executive Search</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-nav">
+                    <div class="testimonial-controls">
                         <button class="testimonial-prev" aria-label="Previous testimonial">
                             <i class="fas fa-chevron-left"></i>
                         </button>
+                        <div class="testimonial-dots"></div>
                         <button class="testimonial-next" aria-label="Next testimonial">
                             <i class="fas fa-chevron-right"></i>
                         </button>
                     </div>
-                    <div class="testimonial-dots"></div>
                 </div>
             </div>
         </section>
 
-        <!-- CTA Section -->
-        <section class="cta-section">
+        <!-- CTA Section - Premium -->
+        <section class="section section-cta">
+            <div class="cta-bg">
+                <div class="cta-gradient"></div>
+                <div class="cta-pattern"></div>
+            </div>
             <div class="container">
                 <div class="cta-content" data-aos="fade-up">
-                    <h2>Ready to Streamline Your CV Processing?</h2>
-                    <p>Join 200+ recruitment agencies who trust PFOPL for their digital service needs. Get a free quote today.</p>
+                    <span class="section-tag section-tag-light">Get Started</span>
+                    <h2 class="cta-title">Ready to Streamline Your <span>CV Processing?</span></h2>
+                    <p class="cta-text">Join 200+ recruitment agencies who trust PFOPL for their digital service needs. Get a free quote today.</p>
                     <div class="cta-buttons">
-                        <a href="/get-quote" class="btn btn-white btn-lg">Request a Quote</a>
-                        <a href="/contact" class="btn btn-outline-white btn-lg">Contact Us</a>
+                        <a href="/get-quote" class="btn btn-white btn-lg">
+                            <span class="btn-text">Request a Quote</span>
+                            <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
+                        </a>
+                        <a href="/contact" class="btn btn-glass-white btn-lg">
+                            <span class="btn-text">Contact Us</span>
+                            <span class="btn-icon"><i class="fas fa-envelope"></i></span>
+                        </a>
+                    </div>
+                    <div class="cta-trust">
+                        <span class="cta-trust-text">Trusted by leading recruitment agencies</span>
+                        <div class="cta-trust-badges">
+                            <span class="trust-badge"><i class="fas fa-shield-alt"></i> ISO Certified</span>
+                            <span class="trust-badge"><i class="fas fa-lock"></i> Secure</span>
+                            <span class="trust-badge"><i class="fas fa-clock"></i> 24/7 Support</span>
+                        </div>
                     </div>
                 </div>
             </div>

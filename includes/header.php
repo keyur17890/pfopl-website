@@ -16,8 +16,8 @@ $is_service_page = strpos($current_uri, '/services') !== false;
     <nav class="navbar">
         <div class="container">
             <a href="/" class="logo" aria-label="<?php echo SITE_SHORT_NAME; ?> Home">
-                <img src="/assets/images/logo.png" alt="<?php echo SITE_SHORT_NAME; ?> Logo" width="150" height="50" class="logo-default">
-                <img src="/assets/images/logo-white.png" alt="<?php echo SITE_SHORT_NAME; ?> Logo" width="150" height="50" class="logo-white">
+                <img src="/assets/images/logo.svg" alt="<?php echo SITE_SHORT_NAME; ?> Logo" width="150" height="50" class="logo-default">
+                <img src="/assets/images/logo-white.svg" alt="<?php echo SITE_SHORT_NAME; ?> Logo" width="150" height="50" class="logo-white">
             </a>
 
             <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
