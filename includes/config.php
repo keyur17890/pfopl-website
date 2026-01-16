@@ -4,6 +4,9 @@
  * Parshwanath Formatting OPC Pvt Ltd
  */
 
+// Set timezone
+date_default_timezone_set('Asia/Kolkata');
+
 // Error reporting (disable in production)
 error_reporting(E_ALL);
 ini_set('display_errors', 0);
@@ -32,6 +35,7 @@ define('ADDRESS_FULL', ADDRESS_STREET . ', ' . ADDRESS_CITY . '-' . ADDRESS_POST
 // Social Media Links
 define('SOCIAL_LINKEDIN', 'https://www.linkedin.com/company/pfopl');
 define('SOCIAL_FACEBOOK', 'https://www.facebook.com/pfopl');
+define('SOCIAL_TWITTER', 'https://twitter.com/pfopl');
 
 // Company Info
 define('COMPANY_FOUNDED', '2016');

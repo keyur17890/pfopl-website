@@ -32,7 +32,7 @@ $og_image = SITE_URL . '/assets/images/og/home.jpg';
 
     <?php include __DIR__ . '/includes/header.php'; ?>
 
-    <main>
+    <main id="main-content" role="main">
         <!-- Hero Section - Premium Full Width -->
         <section class="hero">
             <!-- Animated Background -->

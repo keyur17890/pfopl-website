@@ -5,7 +5,7 @@
  */
 ?>
 
-<footer class="site-footer">
+<footer class="site-footer" role="contentinfo">
     <div class="footer-glow"></div>
     <div class="footer-main">
         <div class="container">
@@ -67,15 +67,15 @@
                             <a href="tel:<?php echo CONTACT_PHONE_LINK; ?>"><?php echo CONTACT_PHONE; ?></a>
                         </li>
                     </ul>
-                    <div class="footer-social">
-                        <a href="<?php echo SOCIAL_LINKEDIN; ?>" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="social-link">
-                            <i class="fab fa-linkedin-in"></i>
+                    <div class="footer-social" role="list" aria-label="Social media links">
+                        <a href="<?php echo SOCIAL_LINKEDIN; ?>" target="_blank" rel="noopener noreferrer" aria-label="Follow us on LinkedIn" class="social-link" role="listitem">
+                            <i class="fab fa-linkedin-in" aria-hidden="true"></i>
                         </a>
-                        <a href="<?php echo SOCIAL_FACEBOOK; ?>" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="social-link">
-                            <i class="fab fa-facebook-f"></i>
+                        <a href="<?php echo SOCIAL_FACEBOOK; ?>" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Facebook" class="social-link" role="listitem">
+                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
                         </a>
-                        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Twitter" class="social-link">
-                            <i class="fab fa-twitter"></i>
+                        <a href="<?php echo SOCIAL_TWITTER; ?>" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Twitter" class="social-link" role="listitem">
+                            <i class="fab fa-twitter" aria-hidden="true"></i>
                         </a>
                     </div>
                 </div>
@@ -132,7 +132,8 @@
     },
     "sameAs": [
         "<?php echo SOCIAL_LINKEDIN; ?>",
-        "<?php echo SOCIAL_FACEBOOK; ?>"
+        "<?php echo SOCIAL_FACEBOOK; ?>",
+        "<?php echo SOCIAL_TWITTER; ?>"
     ]
 }
 </script>

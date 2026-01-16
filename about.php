@@ -32,7 +32,7 @@ $og_image = SITE_URL . '/assets/images/og/about.jpg';
 
     <?php include __DIR__ . '/includes/header.php'; ?>
 
-    <main>
+    <main id="main-content" role="main">
         <!-- Page Hero - Premium -->
         <section class="page-hero">
             <div class="page-hero-bg">

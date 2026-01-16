@@ -32,7 +32,7 @@ $og_image = SITE_URL . '/assets/images/og/cv-formatting.jpg';
 
     <?php include __DIR__ . '/../includes/header.php'; ?>
 
-    <main>
+    <main id="main-content" role="main">
         <!-- Service Hero - Premium -->
         <section class="service-detail-hero">
             <div class="page-hero-bg">
