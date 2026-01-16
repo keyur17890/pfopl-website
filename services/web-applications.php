@@ -1,6 +1,6 @@
 <?php
 /**
- * Web Applications Service Page
+ * Web Applications Service Page - Premium Design
  * Parshwanath Formatting OPC Pvt Ltd
  */
 
@@ -19,48 +19,72 @@ $og_image = SITE_URL . '/assets/images/og/web-applications.jpg';
     <?php include __DIR__ . '/../includes/seo-head.php'; ?>
 </head>
 <body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-logo">PFOPL</div>
+            <div class="preloader-spinner"></div>
+        </div>
+    </div>
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress"></div>
+
     <?php include __DIR__ . '/../includes/header.php'; ?>
 
     <main>
-        <!-- Service Hero -->
+        <!-- Service Hero - Premium -->
         <section class="service-detail-hero">
+            <div class="page-hero-bg">
+                <div class="page-hero-glow"></div>
+                <div class="page-hero-grid"></div>
+            </div>
             <div class="container">
-                <div class="service-detail-content">
+                <div class="service-detail-content" data-aos="fade-right">
                     <nav class="breadcrumbs" aria-label="Breadcrumb">
                         <a href="/">Home</a>
-                        <span>/</span>
+                        <span class="separator"><i class="fas fa-chevron-right"></i></span>
                         <a href="/services">Services</a>
-                        <span>/</span>
+                        <span class="separator"><i class="fas fa-chevron-right"></i></span>
                         <span class="current">Web Applications</span>
                     </nav>
-                    <h1>Custom Web Application Development</h1>
+                    <h1>Custom Web <span class="gradient-text">Application</span> Development</h1>
                     <p>
                         Transform your business processes with bespoke web applications designed to solve
                         your specific challenges. From internal tools to customer-facing portals, we build
                         solutions that drive efficiency.
                     </p>
-                    <div class="service-highlight">
-                        <i class="fas fa-cogs"></i>
-                        <span>Tailored to Your Workflow</span>
-                    </div>
-                    <div class="service-highlight">
-                        <i class="fas fa-lock"></i>
-                        <span>ISO 27001 Security Standards</span>
+                    <div class="service-highlights">
+                        <div class="service-highlight">
+                            <i class="fas fa-cogs"></i>
+                            <span>Tailored to Your Workflow</span>
+                        </div>
+                        <div class="service-highlight">
+                            <i class="fas fa-lock"></i>
+                            <span>ISO 27001 Security Standards</span>
+                        </div>
                     </div>
                     <div class="hero-buttons">
-                        <a href="/get-quote" class="btn btn-white btn-lg">Discuss Your Project</a>
-                        <a href="/contact" class="btn btn-outline-white btn-lg">Contact Us</a>
+                        <a href="/get-quote" class="btn btn-white btn-lg">
+                            <span class="btn-text">Discuss Your Project</span>
+                            <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
+                        </a>
+                        <a href="/contact" class="btn btn-glass-white btn-lg">
+                            <span class="btn-text">Contact Us</span>
+                            <span class="btn-icon"><i class="fas fa-envelope"></i></span>
+                        </a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- What We Build -->
-        <section class="section">
+        <!-- What We Build - Premium -->
+        <section class="section section-services">
             <div class="container">
                 <div class="section-header" data-aos="fade-up">
-                    <h2>Applications We Build</h2>
-                    <p>Custom solutions for various business needs.</p>
+                    <span class="section-tag">What We Build</span>
+                    <h2 class="section-title">Applications We <span class="gradient-text">Develop</span></h2>
+                    <p class="section-subtitle">Custom solutions for various business needs.</p>
                 </div>
                 <div class="benefits-grid">
                     <div class="benefit-item" data-aos="fade-up" data-aos-delay="0">
@@ -121,47 +145,82 @@ $og_image = SITE_URL . '/assets/images/og/web-applications.jpg';
             </div>
         </section>
 
-        <!-- Development Process -->
-        <section class="section section-alt">
+        <!-- Development Process - Premium -->
+        <section class="section section-process">
+            <div class="section-bg">
+                <div class="section-glow"></div>
+            </div>
             <div class="container">
                 <div class="section-header" data-aos="fade-up">
-                    <h2>Our Development Process</h2>
-                    <p>A structured approach to deliver your application successfully.</p>
+                    <span class="section-tag">Our Process</span>
+                    <h2 class="section-title">Development <span class="gradient-text">Process</span></h2>
+                    <p class="section-subtitle">A structured approach to deliver your application successfully.</p>
                 </div>
-                <div class="process-steps">
-                    <div class="process-step" data-aos="fade-up" data-aos-delay="0">
-                        <div class="process-number">1</div>
-                        <h4>Discovery</h4>
-                        <p>Understand your requirements and define the project scope.</p>
+                <div class="process-grid">
+                    <div class="process-card" data-aos="fade-up" data-aos-delay="0">
+                        <div class="process-card-number">01</div>
+                        <div class="process-card-content">
+                            <h4>Discovery</h4>
+                            <p>Understand your requirements and define the project scope.</p>
+                        </div>
+                        <div class="process-card-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
                     </div>
-                    <div class="process-step" data-aos="fade-up" data-aos-delay="100">
-                        <div class="process-number">2</div>
-                        <h4>Design</h4>
-                        <p>Create wireframes and designs for your approval.</p>
+                    <div class="process-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="process-card-number">02</div>
+                        <div class="process-card-content">
+                            <h4>Design</h4>
+                            <p>Create wireframes and designs for your approval.</p>
+                        </div>
+                        <div class="process-card-icon">
+                            <i class="fas fa-pencil-ruler"></i>
+                        </div>
                     </div>
-                    <div class="process-step" data-aos="fade-up" data-aos-delay="200">
-                        <div class="process-number">3</div>
-                        <h4>Development</h4>
-                        <p>Build the application with regular progress updates.</p>
+                    <div class="process-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="process-card-number">03</div>
+                        <div class="process-card-content">
+                            <h4>Development</h4>
+                            <p>Build the application with regular progress updates.</p>
+                        </div>
+                        <div class="process-card-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
                     </div>
-                    <div class="process-step" data-aos="fade-up" data-aos-delay="300">
-                        <div class="process-number">4</div>
-                        <h4>Launch</h4>
-                        <p>Deploy, test and provide training for your team.</p>
+                    <div class="process-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="process-card-number">04</div>
+                        <div class="process-card-content">
+                            <h4>Launch</h4>
+                            <p>Deploy, test and provide training for your team.</p>
+                        </div>
+                        <div class="process-card-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- CTA Section -->
-        <section class="cta-section">
+        <!-- CTA Section - Premium -->
+        <section class="section section-cta">
+            <div class="cta-bg">
+                <div class="cta-gradient"></div>
+                <div class="cta-pattern"></div>
+            </div>
             <div class="container">
                 <div class="cta-content" data-aos="fade-up">
-                    <h2>Have an Application Idea?</h2>
-                    <p>Tell us about your project and we will provide a detailed proposal and timeline.</p>
+                    <span class="section-tag section-tag-light">Get Started</span>
+                    <h2 class="cta-title">Have an Application <span>Idea?</span></h2>
+                    <p class="cta-text">Tell us about your project and we will provide a detailed proposal and timeline.</p>
                     <div class="cta-buttons">
-                        <a href="/get-quote" class="btn btn-white btn-lg">Get a Quote</a>
-                        <a href="/contact" class="btn btn-outline-white btn-lg">Contact Us</a>
+                        <a href="/get-quote" class="btn btn-white btn-lg">
+                            <span class="btn-text">Get a Quote</span>
+                            <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
+                        </a>
+                        <a href="/contact" class="btn btn-glass-white btn-lg">
+                            <span class="btn-text">Contact Us</span>
+                            <span class="btn-icon"><i class="fas fa-envelope"></i></span>
+                        </a>
                     </div>
                 </div>
             </div>

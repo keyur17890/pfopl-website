@@ -1,6 +1,6 @@
 <?php
 /**
- * SEO Services Page
+ * SEO Services Page - Premium Design
  * Parshwanath Formatting OPC Pvt Ltd
  */
 
@@ -19,48 +19,72 @@ $og_image = SITE_URL . '/assets/images/og/seo.jpg';
     <?php include __DIR__ . '/../includes/seo-head.php'; ?>
 </head>
 <body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-logo">PFOPL</div>
+            <div class="preloader-spinner"></div>
+        </div>
+    </div>
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress"></div>
+
     <?php include __DIR__ . '/../includes/header.php'; ?>
 
     <main>
-        <!-- Service Hero -->
+        <!-- Service Hero - Premium -->
         <section class="service-detail-hero">
+            <div class="page-hero-bg">
+                <div class="page-hero-glow"></div>
+                <div class="page-hero-grid"></div>
+            </div>
             <div class="container">
-                <div class="service-detail-content">
+                <div class="service-detail-content" data-aos="fade-right">
                     <nav class="breadcrumbs" aria-label="Breadcrumb">
                         <a href="/">Home</a>
-                        <span>/</span>
+                        <span class="separator"><i class="fas fa-chevron-right"></i></span>
                         <a href="/services">Services</a>
-                        <span>/</span>
+                        <span class="separator"><i class="fas fa-chevron-right"></i></span>
                         <span class="current">SEO Services</span>
                     </nav>
-                    <h1>SEO Services</h1>
+                    <h1><span class="gradient-text">SEO</span> Services</h1>
                     <p>
                         Improve your website visibility in search results and attract more qualified traffic.
                         Our SEO strategies focus on sustainable growth through technical optimisation,
                         quality content and authoritative backlinks.
                     </p>
-                    <div class="service-highlight">
-                        <i class="fas fa-chart-line"></i>
-                        <span>Data-Driven Strategies</span>
-                    </div>
-                    <div class="service-highlight">
-                        <i class="fas fa-file-alt"></i>
-                        <span>Monthly Reporting</span>
+                    <div class="service-highlights">
+                        <div class="service-highlight">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Data-Driven Strategies</span>
+                        </div>
+                        <div class="service-highlight">
+                            <i class="fas fa-file-alt"></i>
+                            <span>Monthly Reporting</span>
+                        </div>
                     </div>
                     <div class="hero-buttons">
-                        <a href="/get-quote" class="btn btn-white btn-lg">Get a Quote</a>
-                        <a href="/contact" class="btn btn-outline-white btn-lg">Contact Us</a>
+                        <a href="/get-quote" class="btn btn-white btn-lg">
+                            <span class="btn-text">Get a Quote</span>
+                            <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
+                        </a>
+                        <a href="/contact" class="btn btn-glass-white btn-lg">
+                            <span class="btn-text">Contact Us</span>
+                            <span class="btn-icon"><i class="fas fa-envelope"></i></span>
+                        </a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- SEO Services -->
-        <section class="section">
+        <!-- SEO Services - Premium -->
+        <section class="section section-services">
             <div class="container">
                 <div class="section-header" data-aos="fade-up">
-                    <h2>Our SEO Services</h2>
-                    <p>Comprehensive search engine optimisation to grow your organic traffic.</p>
+                    <span class="section-tag">What We Offer</span>
+                    <h2 class="section-title">Our SEO <span class="gradient-text">Services</span></h2>
+                    <p class="section-subtitle">Comprehensive search engine optimisation to grow your organic traffic.</p>
                 </div>
                 <div class="benefits-grid">
                     <div class="benefit-item" data-aos="fade-up" data-aos-delay="0">
@@ -121,47 +145,82 @@ $og_image = SITE_URL . '/assets/images/og/seo.jpg';
             </div>
         </section>
 
-        <!-- Process -->
-        <section class="section section-alt">
+        <!-- Process - Premium -->
+        <section class="section section-process">
+            <div class="section-bg">
+                <div class="section-glow"></div>
+            </div>
             <div class="container">
                 <div class="section-header" data-aos="fade-up">
-                    <h2>Our SEO Process</h2>
-                    <p>A structured approach to improving your search visibility.</p>
+                    <span class="section-tag">Our Process</span>
+                    <h2 class="section-title">SEO <span class="gradient-text">Process</span></h2>
+                    <p class="section-subtitle">A structured approach to improving your search visibility.</p>
                 </div>
-                <div class="process-steps">
-                    <div class="process-step" data-aos="fade-up" data-aos-delay="0">
-                        <div class="process-number">1</div>
-                        <h4>Audit</h4>
-                        <p>Analyse your current SEO performance and identify opportunities.</p>
+                <div class="process-grid">
+                    <div class="process-card" data-aos="fade-up" data-aos-delay="0">
+                        <div class="process-card-number">01</div>
+                        <div class="process-card-content">
+                            <h4>Audit</h4>
+                            <p>Analyse your current SEO performance and identify opportunities.</p>
+                        </div>
+                        <div class="process-card-icon">
+                            <i class="fas fa-clipboard-check"></i>
+                        </div>
                     </div>
-                    <div class="process-step" data-aos="fade-up" data-aos-delay="100">
-                        <div class="process-number">2</div>
-                        <h4>Strategy</h4>
-                        <p>Develop a custom SEO plan based on your goals and competition.</p>
+                    <div class="process-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="process-card-number">02</div>
+                        <div class="process-card-content">
+                            <h4>Strategy</h4>
+                            <p>Develop a custom SEO plan based on your goals and competition.</p>
+                        </div>
+                        <div class="process-card-icon">
+                            <i class="fas fa-chess"></i>
+                        </div>
                     </div>
-                    <div class="process-step" data-aos="fade-up" data-aos-delay="200">
-                        <div class="process-number">3</div>
-                        <h4>Implement</h4>
-                        <p>Execute on-page, technical and off-page optimisations.</p>
+                    <div class="process-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="process-card-number">03</div>
+                        <div class="process-card-content">
+                            <h4>Implement</h4>
+                            <p>Execute on-page, technical and off-page optimisations.</p>
+                        </div>
+                        <div class="process-card-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
                     </div>
-                    <div class="process-step" data-aos="fade-up" data-aos-delay="300">
-                        <div class="process-number">4</div>
-                        <h4>Monitor</h4>
-                        <p>Track rankings, traffic and conversions with regular reporting.</p>
+                    <div class="process-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="process-card-number">04</div>
+                        <div class="process-card-content">
+                            <h4>Monitor</h4>
+                            <p>Track rankings, traffic and conversions with regular reporting.</p>
+                        </div>
+                        <div class="process-card-icon">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- CTA Section -->
-        <section class="cta-section">
+        <!-- CTA Section - Premium -->
+        <section class="section section-cta">
+            <div class="cta-bg">
+                <div class="cta-gradient"></div>
+                <div class="cta-pattern"></div>
+            </div>
             <div class="container">
                 <div class="cta-content" data-aos="fade-up">
-                    <h2>Ready to Improve Your Rankings?</h2>
-                    <p>Get a free SEO audit and learn how we can help grow your organic traffic.</p>
+                    <span class="section-tag section-tag-light">Get Started</span>
+                    <h2 class="cta-title">Ready to Improve <span>Your Rankings?</span></h2>
+                    <p class="cta-text">Get a free SEO audit and learn how we can help grow your organic traffic.</p>
                     <div class="cta-buttons">
-                        <a href="/get-quote" class="btn btn-white btn-lg">Request SEO Audit</a>
-                        <a href="/contact" class="btn btn-outline-white btn-lg">Contact Us</a>
+                        <a href="/get-quote" class="btn btn-white btn-lg">
+                            <span class="btn-text">Request SEO Audit</span>
+                            <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
+                        </a>
+                        <a href="/contact" class="btn btn-glass-white btn-lg">
+                            <span class="btn-text">Contact Us</span>
+                            <span class="btn-icon"><i class="fas fa-envelope"></i></span>
+                        </a>
                     </div>
                 </div>
             </div>

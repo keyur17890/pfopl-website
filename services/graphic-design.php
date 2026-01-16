@@ -1,6 +1,6 @@
 <?php
 /**
- * Graphic Design Service Page
+ * Graphic Design Service Page - Premium Design
  * Parshwanath Formatting OPC Pvt Ltd
  */
 
@@ -19,48 +19,72 @@ $og_image = SITE_URL . '/assets/images/og/graphic-design.jpg';
     <?php include __DIR__ . '/../includes/seo-head.php'; ?>
 </head>
 <body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-logo">PFOPL</div>
+            <div class="preloader-spinner"></div>
+        </div>
+    </div>
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress"></div>
+
     <?php include __DIR__ . '/../includes/header.php'; ?>
 
     <main>
-        <!-- Service Hero -->
+        <!-- Service Hero - Premium -->
         <section class="service-detail-hero">
+            <div class="page-hero-bg">
+                <div class="page-hero-glow"></div>
+                <div class="page-hero-grid"></div>
+            </div>
             <div class="container">
-                <div class="service-detail-content">
+                <div class="service-detail-content" data-aos="fade-right">
                     <nav class="breadcrumbs" aria-label="Breadcrumb">
                         <a href="/">Home</a>
-                        <span>/</span>
+                        <span class="separator"><i class="fas fa-chevron-right"></i></span>
                         <a href="/services">Services</a>
-                        <span>/</span>
+                        <span class="separator"><i class="fas fa-chevron-right"></i></span>
                         <span class="current">Graphic Design</span>
                     </nav>
-                    <h1>Professional Graphic Design Services</h1>
+                    <h1>Professional <span class="gradient-text">Graphic Design</span> Services</h1>
                     <p>
                         Create a lasting impression with professional graphic design that captures your
                         brand identity. From logos to marketing materials, we design visual assets that
                         communicate your message effectively.
                     </p>
-                    <div class="service-highlight">
-                        <i class="fas fa-palette"></i>
-                        <span>Creative Brand Identity</span>
-                    </div>
-                    <div class="service-highlight">
-                        <i class="fas fa-sync"></i>
-                        <span>Unlimited Revisions</span>
+                    <div class="service-highlights">
+                        <div class="service-highlight">
+                            <i class="fas fa-palette"></i>
+                            <span>Creative Brand Identity</span>
+                        </div>
+                        <div class="service-highlight">
+                            <i class="fas fa-sync"></i>
+                            <span>Unlimited Revisions</span>
+                        </div>
                     </div>
                     <div class="hero-buttons">
-                        <a href="/get-quote" class="btn btn-white btn-lg">Get a Quote</a>
-                        <a href="/contact" class="btn btn-outline-white btn-lg">Contact Us</a>
+                        <a href="/get-quote" class="btn btn-white btn-lg">
+                            <span class="btn-text">Get a Quote</span>
+                            <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
+                        </a>
+                        <a href="/contact" class="btn btn-glass-white btn-lg">
+                            <span class="btn-text">Contact Us</span>
+                            <span class="btn-icon"><i class="fas fa-envelope"></i></span>
+                        </a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Design Services -->
-        <section class="section">
+        <!-- Design Services - Premium -->
+        <section class="section section-services">
             <div class="container">
                 <div class="section-header" data-aos="fade-up">
-                    <h2>Our Design Services</h2>
-                    <p>Creative solutions for all your visual communication needs.</p>
+                    <span class="section-tag">What We Offer</span>
+                    <h2 class="section-title">Our Design <span class="gradient-text">Services</span></h2>
+                    <p class="section-subtitle">Creative solutions for all your visual communication needs.</p>
                 </div>
                 <div class="benefits-grid">
                     <div class="benefit-item" data-aos="fade-up" data-aos-delay="0">
@@ -121,55 +145,70 @@ $og_image = SITE_URL . '/assets/images/og/graphic-design.jpg';
             </div>
         </section>
 
-        <!-- Why Choose Us -->
-        <section class="section section-alt">
+        <!-- Why Choose Us - Premium -->
+        <section class="section section-features">
+            <div class="section-bg">
+                <div class="section-glow"></div>
+            </div>
             <div class="container">
                 <div class="section-header" data-aos="fade-up">
-                    <h2>Why Choose Our Design Services</h2>
-                    <p>Quality design that makes your business look professional.</p>
+                    <span class="section-tag">Our Advantages</span>
+                    <h2 class="section-title">Why Choose Our <span class="gradient-text">Design Services</span></h2>
+                    <p class="section-subtitle">Quality design that makes your business look professional.</p>
                 </div>
                 <div class="features-grid">
                     <div class="feature-card" data-aos="fade-up" data-aos-delay="0">
-                        <div class="feature-icon">
+                        <div class="feature-card-icon">
                             <i class="fas fa-lightbulb"></i>
                         </div>
-                        <h4>Creative Concepts</h4>
-                        <p>Fresh, original designs that differentiate your brand from competitors.</p>
+                        <h4 class="feature-card-title">Creative Concepts</h4>
+                        <p class="feature-card-text">Fresh, original designs that differentiate your brand from competitors.</p>
                     </div>
                     <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
-                        <div class="feature-icon">
+                        <div class="feature-card-icon">
                             <i class="fas fa-clock"></i>
                         </div>
-                        <h4>Quick Turnaround</h4>
-                        <p>Fast delivery without compromising on design quality.</p>
+                        <h4 class="feature-card-title">Quick Turnaround</h4>
+                        <p class="feature-card-text">Fast delivery without compromising on design quality.</p>
                     </div>
                     <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
-                        <div class="feature-icon">
+                        <div class="feature-card-icon">
                             <i class="fas fa-file-download"></i>
                         </div>
-                        <h4>All File Formats</h4>
-                        <p>Receive designs in print-ready and web-optimised formats.</p>
+                        <h4 class="feature-card-title">All File Formats</h4>
+                        <p class="feature-card-text">Receive designs in print-ready and web-optimised formats.</p>
                     </div>
                     <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
-                        <div class="feature-icon">
+                        <div class="feature-card-icon">
                             <i class="fas fa-redo"></i>
                         </div>
-                        <h4>Revisions Included</h4>
-                        <p>We refine designs until you are completely satisfied.</p>
+                        <h4 class="feature-card-title">Revisions Included</h4>
+                        <p class="feature-card-text">We refine designs until you are completely satisfied.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- CTA Section -->
-        <section class="cta-section">
+        <!-- CTA Section - Premium -->
+        <section class="section section-cta">
+            <div class="cta-bg">
+                <div class="cta-gradient"></div>
+                <div class="cta-pattern"></div>
+            </div>
             <div class="container">
                 <div class="cta-content" data-aos="fade-up">
-                    <h2>Need Design Work?</h2>
-                    <p>Share your design requirements and we will bring your vision to life.</p>
+                    <span class="section-tag section-tag-light">Get Started</span>
+                    <h2 class="cta-title">Need <span>Design Work?</span></h2>
+                    <p class="cta-text">Share your design requirements and we will bring your vision to life.</p>
                     <div class="cta-buttons">
-                        <a href="/get-quote" class="btn btn-white btn-lg">Get a Quote</a>
-                        <a href="/contact" class="btn btn-outline-white btn-lg">Contact Us</a>
+                        <a href="/get-quote" class="btn btn-white btn-lg">
+                            <span class="btn-text">Get a Quote</span>
+                            <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
+                        </a>
+                        <a href="/contact" class="btn btn-glass-white btn-lg">
+                            <span class="btn-text">Contact Us</span>
+                            <span class="btn-icon"><i class="fas fa-envelope"></i></span>
+                        </a>
                     </div>
                 </div>
             </div>

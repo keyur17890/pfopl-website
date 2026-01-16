@@ -1,6 +1,6 @@
 <?php
 /**
- * Social Media Management Service Page
+ * Social Media Management Service Page - Premium Design
  * Parshwanath Formatting OPC Pvt Ltd
  */
 
@@ -19,48 +19,72 @@ $og_image = SITE_URL . '/assets/images/og/social-media.jpg';
     <?php include __DIR__ . '/../includes/seo-head.php'; ?>
 </head>
 <body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-logo">PFOPL</div>
+            <div class="preloader-spinner"></div>
+        </div>
+    </div>
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress"></div>
+
     <?php include __DIR__ . '/../includes/header.php'; ?>
 
     <main>
-        <!-- Service Hero -->
+        <!-- Service Hero - Premium -->
         <section class="service-detail-hero">
+            <div class="page-hero-bg">
+                <div class="page-hero-glow"></div>
+                <div class="page-hero-grid"></div>
+            </div>
             <div class="container">
-                <div class="service-detail-content">
+                <div class="service-detail-content" data-aos="fade-right">
                     <nav class="breadcrumbs" aria-label="Breadcrumb">
                         <a href="/">Home</a>
-                        <span>/</span>
+                        <span class="separator"><i class="fas fa-chevron-right"></i></span>
                         <a href="/services">Services</a>
-                        <span>/</span>
+                        <span class="separator"><i class="fas fa-chevron-right"></i></span>
                         <span class="current">Social Media</span>
                     </nav>
-                    <h1>Social Media Management Services</h1>
+                    <h1>Social Media <span class="gradient-text">Management</span> Services</h1>
                     <p>
                         Build your brand presence and engage with your audience across social platforms.
                         From content creation to community management, we handle your social media so you
                         can focus on your business.
                     </p>
-                    <div class="service-highlight">
-                        <i class="fas fa-calendar-alt"></i>
-                        <span>Consistent Content Schedule</span>
-                    </div>
-                    <div class="service-highlight">
-                        <i class="fas fa-chart-line"></i>
-                        <span>Performance Tracking</span>
+                    <div class="service-highlights">
+                        <div class="service-highlight">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>Consistent Content Schedule</span>
+                        </div>
+                        <div class="service-highlight">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Performance Tracking</span>
+                        </div>
                     </div>
                     <div class="hero-buttons">
-                        <a href="/get-quote" class="btn btn-white btn-lg">Get a Quote</a>
-                        <a href="/contact" class="btn btn-outline-white btn-lg">Contact Us</a>
+                        <a href="/get-quote" class="btn btn-white btn-lg">
+                            <span class="btn-text">Get a Quote</span>
+                            <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
+                        </a>
+                        <a href="/contact" class="btn btn-glass-white btn-lg">
+                            <span class="btn-text">Contact Us</span>
+                            <span class="btn-icon"><i class="fas fa-envelope"></i></span>
+                        </a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Services Included -->
-        <section class="section">
+        <!-- Services Included - Premium -->
+        <section class="section section-services">
             <div class="container">
                 <div class="section-header" data-aos="fade-up">
-                    <h2>What We Offer</h2>
-                    <p>Comprehensive social media services for your business.</p>
+                    <span class="section-tag">What We Offer</span>
+                    <h2 class="section-title">Social Media <span class="gradient-text">Services</span></h2>
+                    <p class="section-subtitle">Comprehensive social media services for your business.</p>
                 </div>
                 <div class="benefits-grid">
                     <div class="benefit-item" data-aos="fade-up" data-aos-delay="0">
@@ -121,48 +145,72 @@ $og_image = SITE_URL . '/assets/images/og/social-media.jpg';
             </div>
         </section>
 
-        <!-- Platforms -->
-        <section class="section section-alt">
+        <!-- Platforms - Premium -->
+        <section class="section section-features">
+            <div class="section-bg">
+                <div class="section-glow"></div>
+            </div>
             <div class="container">
                 <div class="section-header" data-aos="fade-up">
-                    <h2>Platforms We Manage</h2>
-                    <p>We work across all major social media platforms.</p>
+                    <span class="section-tag">Platforms</span>
+                    <h2 class="section-title">Platforms We <span class="gradient-text">Manage</span></h2>
+                    <p class="section-subtitle">We work across all major social media platforms.</p>
                 </div>
                 <div class="services-grid">
                     <div class="service-card" data-aos="fade-up" data-aos-delay="0">
-                        <div class="service-icon">
-                            <i class="fab fa-linkedin"></i>
+                        <div class="service-card-glow"></div>
+                        <div class="service-card-inner">
+                            <div class="service-card-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <h3 class="service-card-title">LinkedIn</h3>
+                            <p class="service-card-text">Professional networking and B2B marketing for businesses and recruitment agencies.</p>
                         </div>
-                        <h3>LinkedIn</h3>
-                        <p>Professional networking and B2B marketing for businesses and recruitment agencies.</p>
                     </div>
                     <div class="service-card" data-aos="fade-up" data-aos-delay="100">
-                        <div class="service-icon">
-                            <i class="fab fa-facebook"></i>
+                        <div class="service-card-glow"></div>
+                        <div class="service-card-inner">
+                            <div class="service-card-icon">
+                                <i class="fab fa-facebook"></i>
+                            </div>
+                            <h3 class="service-card-title">Facebook</h3>
+                            <p class="service-card-text">Build community and reach customers through organic posts and targeted ads.</p>
                         </div>
-                        <h3>Facebook</h3>
-                        <p>Build community and reach customers through organic posts and targeted ads.</p>
                     </div>
                     <div class="service-card" data-aos="fade-up" data-aos-delay="200">
-                        <div class="service-icon">
-                            <i class="fab fa-instagram"></i>
+                        <div class="service-card-glow"></div>
+                        <div class="service-card-inner">
+                            <div class="service-card-icon">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                            <h3 class="service-card-title">Instagram</h3>
+                            <p class="service-card-text">Visual storytelling and brand building through images, stories and reels.</p>
                         </div>
-                        <h3>Instagram</h3>
-                        <p>Visual storytelling and brand building through images, stories and reels.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- CTA Section -->
-        <section class="cta-section">
+        <!-- CTA Section - Premium -->
+        <section class="section section-cta">
+            <div class="cta-bg">
+                <div class="cta-gradient"></div>
+                <div class="cta-pattern"></div>
+            </div>
             <div class="container">
                 <div class="cta-content" data-aos="fade-up">
-                    <h2>Ready to Grow Your Social Presence?</h2>
-                    <p>Let us handle your social media while you focus on running your business.</p>
+                    <span class="section-tag section-tag-light">Get Started</span>
+                    <h2 class="cta-title">Ready to Grow Your <span>Social Presence?</span></h2>
+                    <p class="cta-text">Let us handle your social media while you focus on running your business.</p>
                     <div class="cta-buttons">
-                        <a href="/get-quote" class="btn btn-white btn-lg">Get a Quote</a>
-                        <a href="/contact" class="btn btn-outline-white btn-lg">Contact Us</a>
+                        <a href="/get-quote" class="btn btn-white btn-lg">
+                            <span class="btn-text">Get a Quote</span>
+                            <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
+                        </a>
+                        <a href="/contact" class="btn btn-glass-white btn-lg">
+                            <span class="btn-text">Contact Us</span>
+                            <span class="btn-icon"><i class="fas fa-envelope"></i></span>
+                        </a>
                     </div>
                 </div>
             </div>

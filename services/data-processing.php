@@ -1,6 +1,6 @@
 <?php
 /**
- * Data Processing Service Page
+ * Data Processing Service Page - Premium Design
  * Parshwanath Formatting OPC Pvt Ltd
  */
 
@@ -19,48 +19,72 @@ $og_image = SITE_URL . '/assets/images/og/data-processing.jpg';
     <?php include __DIR__ . '/../includes/seo-head.php'; ?>
 </head>
 <body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-logo">PFOPL</div>
+            <div class="preloader-spinner"></div>
+        </div>
+    </div>
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress"></div>
+
     <?php include __DIR__ . '/../includes/header.php'; ?>
 
     <main>
-        <!-- Service Hero -->
+        <!-- Service Hero - Premium -->
         <section class="service-detail-hero">
+            <div class="page-hero-bg">
+                <div class="page-hero-glow"></div>
+                <div class="page-hero-grid"></div>
+            </div>
             <div class="container">
-                <div class="service-detail-content">
+                <div class="service-detail-content" data-aos="fade-right">
                     <nav class="breadcrumbs" aria-label="Breadcrumb">
                         <a href="/">Home</a>
-                        <span>/</span>
+                        <span class="separator"><i class="fas fa-chevron-right"></i></span>
                         <a href="/services">Services</a>
-                        <span>/</span>
+                        <span class="separator"><i class="fas fa-chevron-right"></i></span>
                         <span class="current">Data Processing</span>
                     </nav>
-                    <h1>Data Processing & Entry Services</h1>
+                    <h1>Data Processing & <span class="gradient-text">Entry</span> Services</h1>
                     <p>
                         Accurate and efficient data processing services that help you manage information
                         effectively. From data entry to complex data conversion and cleansing, we handle
                         your data with precision.
                     </p>
-                    <div class="service-highlight">
-                        <i class="fas fa-check-double"></i>
-                        <span>99.9% Accuracy Guarantee</span>
-                    </div>
-                    <div class="service-highlight">
-                        <i class="fas fa-user-lock"></i>
-                        <span>ISO 27001 Data Security</span>
+                    <div class="service-highlights">
+                        <div class="service-highlight">
+                            <i class="fas fa-check-double"></i>
+                            <span>99.9% Accuracy Guarantee</span>
+                        </div>
+                        <div class="service-highlight">
+                            <i class="fas fa-user-lock"></i>
+                            <span>ISO 27001 Data Security</span>
+                        </div>
                     </div>
                     <div class="hero-buttons">
-                        <a href="/get-quote" class="btn btn-white btn-lg">Get a Quote</a>
-                        <a href="/contact" class="btn btn-outline-white btn-lg">Contact Us</a>
+                        <a href="/get-quote" class="btn btn-white btn-lg">
+                            <span class="btn-text">Get a Quote</span>
+                            <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
+                        </a>
+                        <a href="/contact" class="btn btn-glass-white btn-lg">
+                            <span class="btn-text">Contact Us</span>
+                            <span class="btn-icon"><i class="fas fa-envelope"></i></span>
+                        </a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Services -->
-        <section class="section">
+        <!-- Services - Premium -->
+        <section class="section section-services">
             <div class="container">
                 <div class="section-header" data-aos="fade-up">
-                    <h2>Our Data Services</h2>
-                    <p>Comprehensive data management solutions for your business.</p>
+                    <span class="section-tag">What We Offer</span>
+                    <h2 class="section-title">Our Data <span class="gradient-text">Services</span></h2>
+                    <p class="section-subtitle">Comprehensive data management solutions for your business.</p>
                 </div>
                 <div class="benefits-grid">
                     <div class="benefit-item" data-aos="fade-up" data-aos-delay="0">
@@ -121,55 +145,70 @@ $og_image = SITE_URL . '/assets/images/og/data-processing.jpg';
             </div>
         </section>
 
-        <!-- Quality Assurance -->
-        <section class="section section-alt">
+        <!-- Quality Assurance - Premium -->
+        <section class="section section-features">
+            <div class="section-bg">
+                <div class="section-glow"></div>
+            </div>
             <div class="container">
                 <div class="section-header" data-aos="fade-up">
-                    <h2>Quality & Security</h2>
-                    <p>Your data is handled with the highest standards of accuracy and security.</p>
+                    <span class="section-tag">Quality Assurance</span>
+                    <h2 class="section-title">Quality & <span class="gradient-text">Security</span></h2>
+                    <p class="section-subtitle">Your data is handled with the highest standards of accuracy and security.</p>
                 </div>
                 <div class="features-grid">
                     <div class="feature-card" data-aos="fade-up" data-aos-delay="0">
-                        <div class="feature-icon">
+                        <div class="feature-card-icon">
                             <i class="fas fa-certificate"></i>
                         </div>
-                        <h4>ISO 9001 Certified</h4>
-                        <p>Quality management system ensuring consistent, high-quality output.</p>
+                        <h4 class="feature-card-title">ISO 9001 Certified</h4>
+                        <p class="feature-card-text">Quality management system ensuring consistent, high-quality output.</p>
                     </div>
                     <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
-                        <div class="feature-icon">
+                        <div class="feature-card-icon">
                             <i class="fas fa-shield-alt"></i>
                         </div>
-                        <h4>ISO 27001 Security</h4>
-                        <p>Information security certification protecting your sensitive data.</p>
+                        <h4 class="feature-card-title">ISO 27001 Security</h4>
+                        <p class="feature-card-text">Information security certification protecting your sensitive data.</p>
                     </div>
                     <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
-                        <div class="feature-icon">
+                        <div class="feature-card-icon">
                             <i class="fas fa-user-check"></i>
                         </div>
-                        <h4>Double Verification</h4>
-                        <p>Multi-level quality checks to ensure accuracy before delivery.</p>
+                        <h4 class="feature-card-title">Double Verification</h4>
+                        <p class="feature-card-text">Multi-level quality checks to ensure accuracy before delivery.</p>
                     </div>
                     <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
-                        <div class="feature-icon">
+                        <div class="feature-card-icon">
                             <i class="fas fa-file-contract"></i>
                         </div>
-                        <h4>NDA Available</h4>
-                        <p>We sign confidentiality agreements for sensitive projects.</p>
+                        <h4 class="feature-card-title">NDA Available</h4>
+                        <p class="feature-card-text">We sign confidentiality agreements for sensitive projects.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- CTA Section -->
-        <section class="cta-section">
+        <!-- CTA Section - Premium -->
+        <section class="section section-cta">
+            <div class="cta-bg">
+                <div class="cta-gradient"></div>
+                <div class="cta-pattern"></div>
+            </div>
             <div class="container">
                 <div class="cta-content" data-aos="fade-up">
-                    <h2>Have Data That Needs Processing?</h2>
-                    <p>Share your requirements and receive a quote for accurate, secure data services.</p>
+                    <span class="section-tag section-tag-light">Get Started</span>
+                    <h2 class="cta-title">Have Data That Needs <span>Processing?</span></h2>
+                    <p class="cta-text">Share your requirements and receive a quote for accurate, secure data services.</p>
                     <div class="cta-buttons">
-                        <a href="/get-quote" class="btn btn-white btn-lg">Get a Quote</a>
-                        <a href="/contact" class="btn btn-outline-white btn-lg">Contact Us</a>
+                        <a href="/get-quote" class="btn btn-white btn-lg">
+                            <span class="btn-text">Get a Quote</span>
+                            <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
+                        </a>
+                        <a href="/contact" class="btn btn-glass-white btn-lg">
+                            <span class="btn-text">Contact Us</span>
+                            <span class="btn-icon"><i class="fas fa-envelope"></i></span>
+                        </a>
                     </div>
                 </div>
             </div>
