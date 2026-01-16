@@ -1,6 +1,6 @@
 <?php
 /**
- * CV Formatting Service Page
+ * CV Formatting Service Page - Premium Design
  * Primary Service - Parshwanath Formatting OPC Pvt Ltd
  */
 
@@ -19,39 +19,62 @@ $og_image = SITE_URL . '/assets/images/og/cv-formatting.jpg';
     <?php include __DIR__ . '/../includes/seo-head.php'; ?>
 </head>
 <body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-logo">PFOPL</div>
+            <div class="preloader-spinner"></div>
+        </div>
+    </div>
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress"></div>
+
     <?php include __DIR__ . '/../includes/header.php'; ?>
 
     <main>
-        <!-- Service Hero -->
+        <!-- Service Hero - Premium -->
         <section class="service-detail-hero">
+            <div class="page-hero-bg">
+                <div class="page-hero-glow"></div>
+                <div class="page-hero-grid"></div>
+            </div>
             <div class="container">
-                <div class="service-detail-content">
+                <div class="service-detail-content" data-aos="fade-right">
                     <nav class="breadcrumbs" aria-label="Breadcrumb">
                         <a href="/">Home</a>
-                        <span>/</span>
+                        <span class="separator"><i class="fas fa-chevron-right"></i></span>
                         <a href="/services">Services</a>
-                        <span>/</span>
+                        <span class="separator"><i class="fas fa-chevron-right"></i></span>
                         <span class="current">CV Formatting</span>
                     </nav>
-                    <h1>Professional CV Formatting Services</h1>
+                    <h1>Professional <span class="gradient-text">CV Formatting</span> Services</h1>
                     <p>
                         Transform raw candidate CVs into polished, professional documents that win interviews.
                         Our expert team delivers ATS-optimised, visually appealing CVs within 1-3 hours.
                     </p>
-                    <div class="service-highlight">
-                        <i class="fas fa-clock"></i>
-                        <span>1-3 Hour Turnaround Time</span>
-                    </div>
-                    <div class="service-highlight">
-                        <i class="fas fa-check-circle"></i>
-                        <span>ATS-Optimised Formats</span>
+                    <div class="service-highlights">
+                        <div class="service-highlight">
+                            <i class="fas fa-clock"></i>
+                            <span>1-3 Hour Turnaround Time</span>
+                        </div>
+                        <div class="service-highlight">
+                            <i class="fas fa-check-circle"></i>
+                            <span>ATS-Optimised Formats</span>
+                        </div>
                     </div>
                     <div class="hero-buttons">
-                        <a href="/get-quote" class="btn btn-white btn-lg">Get a Quote</a>
-                        <a href="/contact" class="btn btn-outline-white btn-lg">Contact Us</a>
+                        <a href="/get-quote" class="btn btn-white btn-lg">
+                            <span class="btn-text">Get a Quote</span>
+                            <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
+                        </a>
+                        <a href="/contact" class="btn btn-glass-white btn-lg">
+                            <span class="btn-text">Contact Us</span>
+                            <span class="btn-icon"><i class="fas fa-envelope"></i></span>
+                        </a>
                     </div>
                 </div>
-                <div class="service-detail-image">
+                <div class="service-detail-image" data-aos="fade-left">
                     <img src="/assets/images/services/cv-formatting-hero.jpg" alt="Professional CV formatting service example showing before and after" width="500" height="400">
                 </div>
             </div>
@@ -61,8 +84,9 @@ $og_image = SITE_URL . '/assets/images/og/cv-formatting.jpg';
         <section class="section">
             <div class="container">
                 <div class="section-header" data-aos="fade-up">
-                    <h2>What Our CV Formatting Service Includes</h2>
-                    <p>Comprehensive formatting solutions that make your candidates stand out to employers.</p>
+                    <span class="section-tag">Our Service</span>
+                    <h2 class="section-title">What Our CV Formatting <span class="gradient-text">Service Includes</span></h2>
+                    <p class="section-subtitle">Comprehensive formatting solutions that make your candidates stand out to employers.</p>
                 </div>
                 <div class="benefits-grid">
                     <div class="benefit-item" data-aos="fade-up" data-aos-delay="0">
@@ -123,102 +147,131 @@ $og_image = SITE_URL . '/assets/images/og/cv-formatting.jpg';
             </div>
         </section>
 
-        <!-- Process Section -->
-        <section class="section section-alt">
+        <!-- Process Section - Premium -->
+        <section class="section section-process">
+            <div class="section-bg">
+                <div class="section-glow"></div>
+            </div>
             <div class="container">
                 <div class="section-header" data-aos="fade-up">
-                    <h2>Our Simple Process</h2>
-                    <p>Getting your CVs formatted is quick and straightforward.</p>
+                    <span class="section-tag">How It Works</span>
+                    <h2 class="section-title">Our Simple <span class="gradient-text">Process</span></h2>
+                    <p class="section-subtitle">Getting your CVs formatted is quick and straightforward.</p>
                 </div>
-                <div class="process-steps">
-                    <div class="process-step" data-aos="fade-up" data-aos-delay="0">
-                        <div class="process-number">1</div>
-                        <h4>Submit</h4>
-                        <p>Send your raw CVs via email or our secure portal.</p>
+                <div class="process-grid">
+                    <div class="process-card" data-aos="fade-up" data-aos-delay="0">
+                        <div class="process-card-number">01</div>
+                        <div class="process-card-content">
+                            <h4>Submit</h4>
+                            <p>Send your raw CVs via email or our secure portal.</p>
+                        </div>
+                        <div class="process-card-icon">
+                            <i class="fas fa-upload"></i>
+                        </div>
                     </div>
-                    <div class="process-step" data-aos="fade-up" data-aos-delay="100">
-                        <div class="process-number">2</div>
-                        <h4>Format</h4>
-                        <p>Our team professionally formats each CV to your specifications.</p>
+                    <div class="process-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="process-card-number">02</div>
+                        <div class="process-card-content">
+                            <h4>Format</h4>
+                            <p>Our team professionally formats each CV to your specifications.</p>
+                        </div>
+                        <div class="process-card-icon">
+                            <i class="fas fa-magic"></i>
+                        </div>
                     </div>
-                    <div class="process-step" data-aos="fade-up" data-aos-delay="200">
-                        <div class="process-number">3</div>
-                        <h4>Review</h4>
-                        <p>Quality check ensures accuracy and consistency.</p>
+                    <div class="process-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="process-card-number">03</div>
+                        <div class="process-card-content">
+                            <h4>Review</h4>
+                            <p>Quality check ensures accuracy and consistency.</p>
+                        </div>
+                        <div class="process-card-icon">
+                            <i class="fas fa-check-double"></i>
+                        </div>
                     </div>
-                    <div class="process-step" data-aos="fade-up" data-aos-delay="300">
-                        <div class="process-number">4</div>
-                        <h4>Deliver</h4>
-                        <p>Receive polished CVs within 1-3 hours.</p>
+                    <div class="process-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="process-card-number">04</div>
+                        <div class="process-card-content">
+                            <h4>Deliver</h4>
+                            <p>Receive polished CVs within 1-3 hours.</p>
+                        </div>
+                        <div class="process-card-icon">
+                            <i class="fas fa-paper-plane"></i>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Why Choose Our Service -->
-        <section class="section">
+        <!-- Why Choose Our Service - Premium -->
+        <section class="section section-features">
             <div class="container">
                 <div class="section-header" data-aos="fade-up">
-                    <h2>Why Recruiters Trust Our CV Formatting</h2>
-                    <p>Nine years of experience serving recruitment agencies worldwide.</p>
+                    <span class="section-tag">Why Choose Us</span>
+                    <h2 class="section-title">Why Recruiters <span class="gradient-text">Trust Our CV Formatting</span></h2>
+                    <p class="section-subtitle">Nine years of experience serving recruitment agencies worldwide.</p>
                 </div>
                 <div class="features-grid">
                     <div class="feature-card" data-aos="fade-up" data-aos-delay="0">
-                        <div class="feature-icon">
+                        <div class="feature-card-icon">
                             <i class="fas fa-tachometer-alt"></i>
                         </div>
-                        <h4>Express Delivery</h4>
-                        <p>Most CVs are completed within 1-3 hours. Rush service available for urgent requirements.</p>
+                        <h4 class="feature-card-title">Express Delivery</h4>
+                        <p class="feature-card-text">Most CVs are completed within 1-3 hours. Rush service available for urgent requirements.</p>
                     </div>
                     <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
-                        <div class="feature-icon">
+                        <div class="feature-card-icon">
                             <i class="fas fa-users"></i>
                         </div>
-                        <h4>Scalable Capacity</h4>
-                        <p>Handle bulk CV formatting requests without delays. Perfect for high-volume recruitment drives.</p>
+                        <h4 class="feature-card-title">Scalable Capacity</h4>
+                        <p class="feature-card-text">Handle bulk CV formatting requests without delays. Perfect for high-volume recruitment drives.</p>
                     </div>
                     <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
-                        <div class="feature-icon">
+                        <div class="feature-card-icon">
                             <i class="fas fa-lock"></i>
                         </div>
-                        <h4>ISO 27001 Certified</h4>
-                        <p>Your candidate data is protected by internationally recognised information security standards.</p>
+                        <h4 class="feature-card-title">ISO 27001 Certified</h4>
+                        <p class="feature-card-text">Your candidate data is protected by internationally recognised information security standards.</p>
                     </div>
                     <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
-                        <div class="feature-icon">
+                        <div class="feature-card-icon">
                             <i class="fas fa-sync"></i>
                         </div>
-                        <h4>Free Revisions</h4>
-                        <p>Not satisfied? We offer revisions to ensure the CV meets your exact requirements.</p>
+                        <h4 class="feature-card-title">Free Revisions</h4>
+                        <p class="feature-card-text">Not satisfied? We offer revisions to ensure the CV meets your exact requirements.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Regions Served -->
-        <section class="section section-alt">
+        <!-- Regions Served - Premium -->
+        <section class="section section-services">
+            <div class="section-bg">
+                <div class="section-glow"></div>
+            </div>
             <div class="container">
                 <div class="section-header" data-aos="fade-up">
-                    <h2>Serving Recruitment Agencies Globally</h2>
-                    <p>We work with recruitment professionals across multiple regions and time zones.</p>
+                    <span class="section-tag">Global Reach</span>
+                    <h2 class="section-title">Serving Recruitment <span class="gradient-text">Agencies Globally</span></h2>
+                    <p class="section-subtitle">We work with recruitment professionals across multiple regions and time zones.</p>
                 </div>
                 <div class="services-grid">
                     <div class="service-card" data-aos="fade-up" data-aos-delay="0">
-                        <div class="service-icon">
+                        <div class="service-card-icon">
                             <i class="fas fa-flag"></i>
                         </div>
                         <h3>United Kingdom</h3>
                         <p>Supporting UK recruitment agencies with CV formats that meet local market expectations and employer preferences.</p>
                     </div>
                     <div class="service-card" data-aos="fade-up" data-aos-delay="100">
-                        <div class="service-icon">
+                        <div class="service-card-icon">
                             <i class="fas fa-flag"></i>
                         </div>
                         <h3>United States</h3>
                         <p>Resume formatting optimised for American employers, including federal resume formats where required.</p>
                     </div>
                     <div class="service-card" data-aos="fade-up" data-aos-delay="200">
-                        <div class="service-icon">
+                        <div class="service-card-icon">
                             <i class="fas fa-flag"></i>
                         </div>
                         <h3>Canada & Australia</h3>
@@ -228,12 +281,13 @@ $og_image = SITE_URL . '/assets/images/og/cv-formatting.jpg';
             </div>
         </section>
 
-        <!-- FAQ Section -->
+        <!-- FAQ Section - Premium -->
         <section class="section">
             <div class="container">
                 <div class="section-header" data-aos="fade-up">
-                    <h2>Frequently Asked Questions</h2>
-                    <p>Common questions about our CV formatting service.</p>
+                    <span class="section-tag">FAQ</span>
+                    <h2 class="section-title">Frequently Asked <span class="gradient-text">Questions</span></h2>
+                    <p class="section-subtitle">Common questions about our CV formatting service.</p>
                 </div>
                 <div class="faq-list" data-aos="fade-up">
                     <div class="faq-item">
@@ -294,15 +348,26 @@ $og_image = SITE_URL . '/assets/images/og/cv-formatting.jpg';
             </div>
         </section>
 
-        <!-- CTA Section -->
-        <section class="cta-section">
+        <!-- CTA Section - Premium -->
+        <section class="section section-cta">
+            <div class="cta-bg">
+                <div class="cta-gradient"></div>
+                <div class="cta-pattern"></div>
+            </div>
             <div class="container">
                 <div class="cta-content" data-aos="fade-up">
-                    <h2>Ready to Streamline Your CV Formatting?</h2>
-                    <p>Join recruitment agencies worldwide who trust PFOPL for fast, professional CV formatting.</p>
+                    <span class="section-tag section-tag-light">Get Started</span>
+                    <h2 class="cta-title">Ready to Streamline Your <span>CV Formatting?</span></h2>
+                    <p class="cta-text">Join recruitment agencies worldwide who trust PFOPL for fast, professional CV formatting.</p>
                     <div class="cta-buttons">
-                        <a href="/get-quote" class="btn btn-white btn-lg">Get a Free Quote</a>
-                        <a href="/contact" class="btn btn-outline-white btn-lg">Speak to Our Team</a>
+                        <a href="/get-quote" class="btn btn-white btn-lg">
+                            <span class="btn-text">Get a Free Quote</span>
+                            <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
+                        </a>
+                        <a href="/contact" class="btn btn-glass-white btn-lg">
+                            <span class="btn-text">Speak to Our Team</span>
+                            <span class="btn-icon"><i class="fas fa-envelope"></i></span>
+                        </a>
                     </div>
                 </div>
             </div>
